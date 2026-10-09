@@ -1,0 +1,7 @@
+---
+- name: My Ansible Web App
+  hosts: all
+  tasks:
+    - name: Display a message
+      debug:
+        msg: "Hello! My Ansible Web App is ready"
